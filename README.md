@@ -1,2 +1,2 @@
 <h1>PyAutoUpdate</h1>
-<h3>An auto-updater for python code</h3>
+<a style="font-size: 15px">An auto-updater for python code</a>

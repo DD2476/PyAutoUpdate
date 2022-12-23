@@ -21,7 +21,7 @@ You will have to update this every time you release a new version.
 
 ```json
 {
- "newVersion": 1.1,
+ "newest": 1.1,
  "download": "https://URL/main.py"
 }
 ```

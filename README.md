@@ -1,2 +1,2 @@
 <h>PyAutoUpdate</h>
-<h2>An auto-updater for python code</h2>
+<h3>An auto-updater for python code</h3>

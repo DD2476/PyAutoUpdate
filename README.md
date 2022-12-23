@@ -21,4 +21,8 @@ You will have to update this every time you release a new version.
  "download": "https://URL/main.py"
 }
 ```
-GAGDS
+
+2. Copy the pastebin raw url (add "/raw/" before the code) and add it inside `updater.py`;
+3. Fix versions or other information in the code to your liking;
+4. Implement *updater.py* and the code from *main.py* inside your python script;
+5. Test the code and fix it if something doesn't work.

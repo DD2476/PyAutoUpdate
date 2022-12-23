@@ -4,8 +4,8 @@ def PrintVer():
     print(f"This is the {getVersion()} version!")
     input()
 if __name__ == "__main__":
-    from updater import checkUpdates
-    resp = checkUpdates()
+    from updater import Update
+    resp = Update()
     print(f"This is version {getVersion()}!\n")
     if resp == True:print("Update installed.\nPress any key to exit.");input()
     else:print("No new updates available.\nPress any key to exit.");input()

@@ -1,4 +1,4 @@
-def checkUpdates():
+def Update():
     import requests,json;from main import getVersion
     NewVersionUrl = "https://pastebin.com/raw/rBeWpLuR"
     updatePackageParams = json.loads(requests.get(NewVersionUrl).text)

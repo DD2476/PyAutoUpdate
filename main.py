@@ -7,5 +7,5 @@ if __name__ == "__main__":
     from updater import Update
     resp = Update()
     print(f"This is version {getVersion()}!\n")
-    if resp == True:print("Update installed.\nPress any key to exit.");input()
-    else:print("No new updates available.\nPress any key to exit.");input()
+    if resp == True:print("Update installed.\nPress enter to exit.");input()
+    else:print("No new updates available.\nPress enter to exit.");input()

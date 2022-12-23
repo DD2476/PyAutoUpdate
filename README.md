@@ -1,6 +1,6 @@
 <div align="center">
   
-  # PyAutoUpdate :tada:
+  # PyAutoUpdate 🎉
   
   > An auto-updater for python code, which fetches the new version from a cloud server.
 
@@ -9,5 +9,16 @@
   [![last commit](https://img.shields.io/github/last-commit/Theta69/PyAutoUpdate)]()
   
   # Instructions 🤔
+  
+  > 1. Make a pastebin json containing the new version metadata.
+  
+  > You will have to update this every time you release a new version.
+  
+  ```json
+  {
+  	"newVersion": 1.1,
+  	"download": "https://URL/main.py"
+  }
+  ```
   
 </div>

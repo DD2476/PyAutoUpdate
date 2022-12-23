@@ -13,7 +13,7 @@
 # Instructions 🤔
 
 1. Make a pastebin json containing the new version metadata.<br>
-2. You will have to update this every time you release a new version.
+You will have to update this every time you release a new version.
 
 ```json
 {

@@ -1,11 +1,9 @@
-def getVersion():
-    return 1.0
-def PrintVer():
-    print(f"This is the {getVersion()} version!")
-    input()
-if __name__ == "__main__":
-    from updater import Update
-    resp = Update()
-    print(f"This is version {getVersion()}!\n")
-    if resp == True:print("Update installed.\nPress enter to exit.");input()
-    else:print("No new updates available.\nPress enter to exit.");input()
+from updater import Updater
+updater = Updater(
+    json_url="https://pastebin.com/raw/Gt0xsQqK",
+    current_version=1.0,
+    optional_update=True,
+    print_logs=False
+    )
+updater.CheckUpdates() #ApplyUpdate() also checks for updates, therefore this is unnecessary when only installing an update
+updater.ApplyUpdate()

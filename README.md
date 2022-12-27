@@ -10,11 +10,11 @@
   
 </div>
 
-# How it works 🤯
+<!-- # How it works 🤯
 
 > When you run `main.py`, **updater.py**/*Update()* gets called. Updater then uses **main.py**/*getVersion()* to get the installed version and compares it to the newest available version (which it gets from the JSON paste). If there is a new version available, it downloads it.
 
-<!-- # Instructions 🤔
+# Instructions 🤔
 
 1. Make a pastebin json containing the new version metadata.<br>
 You will have to update this every time you release a new version.
